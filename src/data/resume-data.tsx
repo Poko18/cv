@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -79,7 +60,6 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Software Developer",
       title_badges: [],
-      // logo: Logo,
       start: "2023",
       end: "Present",
       description:
@@ -92,7 +72,6 @@ export const RESUME_DATA = {
       badges: [],
       title: "PhD Student",
       title_badges: [],
-      // logo: Logo,
       start: "2020",
       end: "Present",
       description:
@@ -105,7 +84,6 @@ export const RESUME_DATA = {
       badges: [],
       title: "Student Researcher",
       title_badges: ["Internship"],
-      // logo: Logo,
       start: "2021",
       end: "2022",
       description:
@@ -118,7 +96,6 @@ export const RESUME_DATA = {
       badges: [],
       title: "Student Researcher",
       title_badges: ["Internship"],
-      // logo: Logo,
       start: "2020",
       end: "2020",
       description:
@@ -131,7 +108,6 @@ export const RESUME_DATA = {
       badges: [],
       title: "Student Researcher",
       title_badges: ["Internship"],
-      // logo: Logo,
       start: "2019",
       end: "2019",
       description:
@@ -144,12 +120,10 @@ export const RESUME_DATA = {
       badges: [],
       title: "Student Researcher",
       title_badges: ["Master's degree project"],
-      // logo: Logo,
       start: "2017",
       end: "2019",
       description:
         "I was responsible for the production, purification, and biophysical characterization of diverse coiled-coil protein origami constructs. Additionally, I conducted binding trials with nanobodies to assess their interactions with the constructs. Furthermore, I endeavored to crystallize the proteins to further elucidate their structure and function.",
-      // Protein Purification, Biology, Linux, Protein Characterization, Protein Structure, Biopython, Protein Expression, Protein Engineering, Antibodies, Protein Crystallization, Pandas, NumPy, Pymol
       tags: ["Protein Purification", "Protein Characterization", "Protein Structure", "Protein Expression", "Protein Engineering", "Antibodies", "Protein Crystallization", "Biopython", "Pandas", "NumPy", "Pymol"],
     },
     {
@@ -158,7 +132,6 @@ export const RESUME_DATA = {
       badges: [],
       title: "Student Researcher",
       title_badges: ["Bachelor's degree project"],
-      // logo: Logo,
       start: "2017",
       end: "2017",
       description:
@@ -186,248 +159,6 @@ export const RESUME_DATA = {
     "Git",
     "HPC",
   ],
-  // field: [
-  //   "Protein Design",
-  //   "Structural Biology",
-  //   "Computational Biology",
-  // ],
-  // dry_lab: [
-  //   "Python",
-  //   "Rosetta",
-  //   "AlphaFold2",
-  //   "RFdiffusion",
-  //   "ProteinMPNN",
-  //   "Modeller",
-  //   "Gromacs",
-  //   "Pymol",
-  //   "Chimera",
-  //   "Biopython",
-  //   "Pandas",
-  //   "NumPy",
-  //   "TensorFlow",
-  //   "AWS",
-  //   "Docker",
-  //   "Git",
-  //   "HPC",
-  // ],
-  // wet_lab: {
-  //   topic: [
-  //   "Molecular Cloning",
-  //   "Protein Design",
-  //   "Protein Expression",
-  //   "Protein Purification",
-  //   "Protein Characterization",
-  //   "Protein Structure Determination",
-  //   "Protein-protein Interactions",
-  //   "Enzyme Activity",
-  //   ],
-  //   techniques: [
-  //     "Circular Dichroism (CD)",
-  //     "Dynamic Light Scattering (DLS)",
-  //     "Multiangle Light Scattering (SEC-MALS)",
-  //     "Isotermal Titration Calorimetry (ITC)",
-  //     "Chromatography - IEX, SEC, Ni-NTA",
-  //     "X-ray Crystallography",
-  //     "Cryo-electron Microscopy (CryoEM)",
-  //   ],
-  //   other_techniques: [
-  //     "Western Blot",
-  //     "SDS-PAGE",
-  //     "Golden Gate Assembly",
-  //     "Gibson Assembly",
-  //     "PCR",
-  //   ],
-  // },
-  // tools: {
-  //   protein_design: [
-  //     "Rosetta",
-  //     "AlphaFold2",
-  //     "RFdiffusion",
-  //     "ProteinMPNN",
-  //     "Python",
-  //     "Modeller",
-  //     "Gromacs",
-  //   ],
-  //   structural_biology: [
-  //     "CryoEM",
-  //     "X-ray Crystallography",
-  //     "CryoSPARC",
-  //     "Relion",
-  //     "Phenix",
-  //     "CCP4",
-  //   ],
-  //   computational_biology: [
-  //     "HPC",
-  //     "AWS",
-  //     "Docker",
-  //     "Git",
-  //     "Python",
-  //     "Biopython",
-  //     "Pandas",
-  //     "NumPy",
-  //     "TensorFlow",
-  //   ],
-  // },
   projects: [
-    // {
-    //   title: "Consultly",
-    //   techStack: [
-    //     "Side Project",
-    //     "TypeScript",
-    //     "Next.js",
-    //     "Vite",
-    //     "GraphQL",
-    //     "WebRTC",
-    //   ],
-    //   description: "A platform to build and grow your online business",
-    //   logo: ConsultlyLogo,
-    //   link: {
-    //     label: "consultly.com",
-    //     href: "https://consultly.com/",
-    //   },
-    // },
-    // {
-    //   title: "Monito",
-    //   techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-    //   description:
-    //     "Browser extension that records everything happening in a web application",
-    //   logo: MonitoLogo,
-    //   link: {
-    //     label: "monito.dev",
-    //     href: "https://monito.dev/",
-    //   },
-    // },
-    // {
-    //   title: "Jarocki.me",
-    //   techStack: ["Side Project", "Next.js", "MDX"],
-    //   description:
-    //     "My personal website and blog. Built with Next.js and Notion API",
-    //   logo: JarockiMeLogo,
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://jarocki.me/",
-    //   },
-    // },
-    // {
-    //   title: "Minimal",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Minimalist calendars, habit trackers and planners generator",
-    //   logo: Minimal,
-    //   link: {
-    //     label: "useminimal.com",
-    //     href: "https://useminimal.com/",
-    //   },
-    // },
-    // {
-    //   title: "Barepapers",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Generates beautiful wallpapers using random shapes and gradients",
-    //   logo: BarepapersLogo,
-    //   link: {
-    //     label: "barepapers.com",
-    //     href: "https://barepapers.com/",
-    //   },
-    // },
-    // {
-    //   title: "Year progress",
-    //   techStack: ["Side Project", "TypeScript", "Next.js"],
-    //   description: "Tracks current year progress and displays a countdown",
-    //   logo: YearProgressLogo,
-    //   link: {
-    //     label: "getyearprogress.com",
-    //     href: "https://getyearprogress.com/",
-    //   },
-    // },
-    // {
-    //   title: "Parabol",
-    //   techStack: [
-    //     "Full Stack Developer",
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "The Agile meeting co-pilot that delivers better meetings with less effort",
-    //   logo: ParabolLogo,
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://parabol.co/",
-    //   },
-    // },
-    // {
-    //   title: "Evercast",
-    //   techStack: [
-    //     "Lead Frontend Developer",
-
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "Creative collaboration platform that combines video conferencing and HD media streaming",
-    //   logo: EvercastLogo,
-    //   link: {
-    //     label: "evercast.us",
-    //     href: "https://www.evercast.us/",
-    //   },
-    // },
-    // {
-    //   title: "Mobile Vikings",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for leading virtual mobile operator in Poland",
-    //   logo: MobileVikingsLogo,
-    //   link: {
-    //     label: "mobilevikings.pl",
-    //     href: "https://mobilevikings.pl/",
-    //   },
-    // },
-    // {
-    //   title: "Howdy",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Howdy is a place for you to join communities you care about",
-    //   logo: Howdy,
-    //   link: {
-    //     label: "play.google.com",
-    //     href: "https://howdy.co/",
-    //   },
-    // },
-    // {
-    //   title: "Tastycloud",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for managing and displaying restaurant menus in kiosk mode",
-    //   logo: TastyCloudLogo,
-    //   link: {
-    //     label: "tastycloud.fr",
-    //     href: "https://www.tastycloud.fr/",
-    //   },
-    // },
-    // {
-    //   title: "Ambit",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with sharing your contact details",
-    //   logo: AmbitLogo,
-    // },
-    // {
-    //   title: "Bim",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with booking a table in a restaurants",
-    //   logo: BimLogo,
-    // },
-    // {
-    //   title: "Canal Digital GO",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Video streaming mobile application for Canal Digital subscribers",
-    //   logo: CDGOLogo,
-    // },
   ],
 } as const;
