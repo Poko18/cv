@@ -20,259 +20,414 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Tadej Satler",
+  initials: "TS",
+  location: "Ljubljana, Slovenia, CET",
+  locationLink: "https://www.google.com/maps/place/Ljubljana",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "PhD Student @ Kemijski Inštitut | Protein Design, Structural and Computational Biology",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "I'm a Biochemistry graduate and currently a PhD student of Biomedicine. I'm interested in Protein Design, Structural Biology, Computational Biology and Machine Learning.",
+  // avatarUrl: "https://avatars.githubusercontent.com/u/36132075?v=4",
+  avatarUrl: "https://raw.githubusercontent.com/Poko18/cv/495cb9bf711b2165e4d5ce123532b9f2a18f318b/pp.jpeg",
+  personalWebsiteUrl: "https://bento.me/tadej",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "tadej.satler@gmail.com",
+    tel: "+38631514849",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Poko18",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "www.linkedin.com/in/tadejsatler/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://twitter.com/TadejSatler",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Ljubljana",
+      degree: "PhD - Protein Design, Structural and Computational Biology",
+      start: "2020",
+      end: "Present",
+    },
+    {
+      school: "University of Ljubljana",
+      degree: "Master's degree in Biochemistry",
+      start: "2017",
+      end: "2019",
+    },
+    {
+      school: "University of Ljubljana",
+      degree: "Bachelor's degree in Biochemistry",
+      start: "2014",
+      end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "CryoCloud",
+      link: "https://www.cryocloud.io/",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      title: "Software Developer",
+      title_badges: [],
+      // logo: Logo,
+      start: "2023",
+      end: "Present",
+      description:
+        "Responsible for the development and integration of software solutions tailored for cryoEM data analysis within CryoCloud's platform. Duties include conducting research, testing, documentation, scripting, and contributing to web development of the platform.",
+      tags: ["Python", "Relion", "API", "Docker", "AWS", "EC2"],
+    },
+    {
+      company: "National Institute of Chemistry",
+      link: "https://www.ki.si/en/",
+      badges: [],
+      title: "PhD Student",
+      title_badges: [],
+      // logo: Logo,
+      start: "2020",
+      end: "Present",
+      description:
+        "Developed several protein design pipelines, including those for de novo protein binder generation. These pipelines integrate computational tools such as Rosetta, RFdiffusion, AlphaFold2, and ProteinMPNN with experimental validation methods. Additionally, I have successfully resolved multiple protein structures to high resolution using both CryoEM and X-ray techniques.",
+      tags: ["Protein Design", "Computational Biology", "Rosetta", "AlphaFold2", "RFdiffusion", "ProteinMPNN", "Modeller", "Gromacs", "HPC", "Pipelining", "Protein Purification (FPLC)", "Protein Characterization (CD,DLS,SEC-MALS)", "PPI (ITC)", "X-ray Crystallography", "CryoEM"],
+    },
+    {
+      company: "University of California, San Francisco",
+      link: "https://www.ucsf.edu/",
+      badges: [],
+      title: "Student Researcher",
+      title_badges: ["Internship"],
+      // logo: Logo,
       start: "2021",
-      end: "2024",
+      end: "2022",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "In Andrej Šali's lab. Advanced the development of deep neural networks specifically tailored for the identification of protein residues within cryoEM densities.",
+      tags: ["Python", "TensorFlow", "Integrative Biology", "CryoEM", "Machine Learning", "HPC", "Pipelining"],
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "University of Bristol",
+      link: "https://www.bristol.ac.uk/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Student Researcher",
+      title_badges: ["Internship"],
+      // logo: Logo,
+      start: "2020",
+      end: "2020",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "In Dek Wolfson's lab. Design and structure determination of novel peptide helical barrels.",
+      tags: ["Peptide Design", "Peptide Purification", "Peptide Characterization", "X-ray Crystallography", "Structure Determination"],
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Stockholms universitet",
+      link: "https://www.su.se/english/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Student Researcher",
+      title_badges: ["Internship"],
+      // logo: Logo,
+      start: "2019",
+      end: "2019",
+      description:
+        "In Agneta Norén's lab. The group is working on the regulation of nitrogen fixation in photosynthetic bacteria. My project focused on the recognition of putative DraG binding proteins responsible for the inactivation of DraG under energy depletion in Rhodospirillum rubrum.",
+      tags: ["Protein Purification", "Protein-protein interactions"],
+    },
+    {
+      company: "University of Ljubljana",
+      link: "https://www.uni-lj.si/en/university",
+      badges: [],
+      title: "Student Researcher",
+      title_badges: ["Master's degree project"],
+      // logo: Logo,
+      start: "2017",
+      end: "2019",
+      description:
+        "I was responsible for the production, purification, and biophysical characterization of diverse coiled-coil protein origami constructs. Additionally, I conducted binding trials with nanobodies to assess their interactions with the constructs. Furthermore, I endeavored to crystallize the proteins to further elucidate their structure and function.",
+      // Protein Purification, Biology, Linux, Protein Characterization, Protein Structure, Biopython, Protein Expression, Protein Engineering, Antibodies, Protein Crystallization, Pandas, NumPy, Pymol
+      tags: ["Protein Purification", "Protein Characterization", "Protein Structure", "Protein Expression", "Protein Engineering", "Antibodies", "Protein Crystallization", "Biopython", "Pandas", "NumPy", "Pymol"],
+    },
+    {
+      company: "University of Ljubljana",
+      link: "https://www.uni-lj.si/en/university",
+      badges: [],
+      title: "Student Researcher",
+      title_badges: ["Bachelor's degree project"],
+      // logo: Logo,
+      start: "2017",
+      end: "2017",
+      description:
+        "In the Department of Biochemistry under the supervision of doc. Dr. Marko Novinec. I was involved in expression, isolation and activity measurements of a mutant cathepsin K enzyme.",
+      tags: ["Protein Purification", "Enzyme Activity", "Protein Expression"],
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Protein Design",
+    "Structural Biology",
+    "Computational Biology",
+    "CryoEM",
+    "X-ray",
+    "Rosetta",
+    "AlphaFold2",
+    "RFdiffusion",
+    "ProteinMPNN",
+    "TensorFlow",
+    "Biopython",
+    "Pandas",
+    "NumPy",
+    "TensorFlow",
+    "AWS",
+    "Docker",
+    "Git",
+    "HPC",
   ],
+  // field: [
+  //   "Protein Design",
+  //   "Structural Biology",
+  //   "Computational Biology",
+  // ],
+  // dry_lab: [
+  //   "Python",
+  //   "Rosetta",
+  //   "AlphaFold2",
+  //   "RFdiffusion",
+  //   "ProteinMPNN",
+  //   "Modeller",
+  //   "Gromacs",
+  //   "Pymol",
+  //   "Chimera",
+  //   "Biopython",
+  //   "Pandas",
+  //   "NumPy",
+  //   "TensorFlow",
+  //   "AWS",
+  //   "Docker",
+  //   "Git",
+  //   "HPC",
+  // ],
+  // wet_lab: {
+  //   topic: [
+  //   "Molecular Cloning",
+  //   "Protein Design",
+  //   "Protein Expression",
+  //   "Protein Purification",
+  //   "Protein Characterization",
+  //   "Protein Structure Determination",
+  //   "Protein-protein Interactions",
+  //   "Enzyme Activity",
+  //   ],
+  //   techniques: [
+  //     "Circular Dichroism (CD)",
+  //     "Dynamic Light Scattering (DLS)",
+  //     "Multiangle Light Scattering (SEC-MALS)",
+  //     "Isotermal Titration Calorimetry (ITC)",
+  //     "Chromatography - IEX, SEC, Ni-NTA",
+  //     "X-ray Crystallography",
+  //     "Cryo-electron Microscopy (CryoEM)",
+  //   ],
+  //   other_techniques: [
+  //     "Western Blot",
+  //     "SDS-PAGE",
+  //     "Golden Gate Assembly",
+  //     "Gibson Assembly",
+  //     "PCR",
+  //   ],
+  // },
+  // tools: {
+  //   protein_design: [
+  //     "Rosetta",
+  //     "AlphaFold2",
+  //     "RFdiffusion",
+  //     "ProteinMPNN",
+  //     "Python",
+  //     "Modeller",
+  //     "Gromacs",
+  //   ],
+  //   structural_biology: [
+  //     "CryoEM",
+  //     "X-ray Crystallography",
+  //     "CryoSPARC",
+  //     "Relion",
+  //     "Phenix",
+  //     "CCP4",
+  //   ],
+  //   computational_biology: [
+  //     "HPC",
+  //     "AWS",
+  //     "Docker",
+  //     "Git",
+  //     "Python",
+  //     "Biopython",
+  //     "Pandas",
+  //     "NumPy",
+  //     "TensorFlow",
+  //   ],
+  // },
   projects: [
-    {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
+    // {
+    //   title: "Consultly",
+    //   techStack: [
+    //     "Side Project",
+    //     "TypeScript",
+    //     "Next.js",
+    //     "Vite",
+    //     "GraphQL",
+    //     "WebRTC",
+    //   ],
+    //   description: "A platform to build and grow your online business",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "consultly.com",
+    //     href: "https://consultly.com/",
+    //   },
+    // },
+    // {
+    //   title: "Monito",
+    //   techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+    //   description:
+    //     "Browser extension that records everything happening in a web application",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "monito.dev",
+    //     href: "https://monito.dev/",
+    //   },
+    // },
+    // {
+    //   title: "Jarocki.me",
+    //   techStack: ["Side Project", "Next.js", "MDX"],
+    //   description:
+    //     "My personal website and blog. Built with Next.js and Notion API",
+    //   logo: JarockiMeLogo,
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://jarocki.me/",
+    //   },
+    // },
+    // {
+    //   title: "Minimal",
+    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
+    //   description:
+    //     "Minimalist calendars, habit trackers and planners generator",
+    //   logo: Minimal,
+    //   link: {
+    //     label: "useminimal.com",
+    //     href: "https://useminimal.com/",
+    //   },
+    // },
+    // {
+    //   title: "Barepapers",
+    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
+    //   description:
+    //     "Generates beautiful wallpapers using random shapes and gradients",
+    //   logo: BarepapersLogo,
+    //   link: {
+    //     label: "barepapers.com",
+    //     href: "https://barepapers.com/",
+    //   },
+    // },
+    // {
+    //   title: "Year progress",
+    //   techStack: ["Side Project", "TypeScript", "Next.js"],
+    //   description: "Tracks current year progress and displays a countdown",
+    //   logo: YearProgressLogo,
+    //   link: {
+    //     label: "getyearprogress.com",
+    //     href: "https://getyearprogress.com/",
+    //   },
+    // },
+    // {
+    //   title: "Parabol",
+    //   techStack: [
+    //     "Full Stack Developer",
+    //     "TypeScript",
+    //     "React",
+    //     "Node.js",
+    //     "GraphQL",
+    //   ],
+    //   description:
+    //     "The Agile meeting co-pilot that delivers better meetings with less effort",
+    //   logo: ParabolLogo,
+    //   link: {
+    //     label: "github.com",
+    //     href: "https://parabol.co/",
+    //   },
+    // },
+    // {
+    //   title: "Evercast",
+    //   techStack: [
+    //     "Lead Frontend Developer",
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    //     "TypeScript",
+    //     "React",
+    //     "Node.js",
+    //     "GraphQL",
+    //   ],
+    //   description:
+    //     "Creative collaboration platform that combines video conferencing and HD media streaming",
+    //   logo: EvercastLogo,
+    //   link: {
+    //     label: "evercast.us",
+    //     href: "https://www.evercast.us/",
+    //   },
+    // },
+    // {
+    //   title: "Mobile Vikings",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application for leading virtual mobile operator in Poland",
+    //   logo: MobileVikingsLogo,
+    //   link: {
+    //     label: "mobilevikings.pl",
+    //     href: "https://mobilevikings.pl/",
+    //   },
+    // },
+    // {
+    //   title: "Howdy",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Howdy is a place for you to join communities you care about",
+    //   logo: Howdy,
+    //   link: {
+    //     label: "play.google.com",
+    //     href: "https://howdy.co/",
+    //   },
+    // },
+    // {
+    //   title: "Tastycloud",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application for managing and displaying restaurant menus in kiosk mode",
+    //   logo: TastyCloudLogo,
+    //   link: {
+    //     label: "tastycloud.fr",
+    //     href: "https://www.tastycloud.fr/",
+    //   },
+    // },
+    // {
+    //   title: "Ambit",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application that helps with sharing your contact details",
+    //   logo: AmbitLogo,
+    // },
+    // {
+    //   title: "Bim",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Android application that helps with booking a table in a restaurants",
+    //   logo: BimLogo,
+    // },
+    // {
+    //   title: "Canal Digital GO",
+    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
+    //   description:
+    //     "Video streaming mobile application for Canal Digital subscribers",
+    //   logo: CDGOLogo,
+    // },
   ],
 } as const;
