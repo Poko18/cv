@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "PhD Student @ Kemijski Inštitut | Protein Design, Structural and Computational Biology",
   summary:
-    "I'm a Biochemistry graduate and currently a PhD student of Biomedicine. I'm interested in Protein Design, Structural Biology, Computational Biology and Machine Learning.",
+    "I'm a Biochemistry graduate currently pursuing a PhD, with a keen interest in Protein Design, Structural Biology, Computational Biology, and Machine Learning. Actively seeking opportunities to apply my expertise in innovative research and development projects.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/36132075?v=4",
   avatarUrl: "https://raw.githubusercontent.com/Poko18/cv/495cb9bf711b2165e4d5ce123532b9f2a18f318b/pp.jpeg",
   personalWebsiteUrl: "https://bento.me/tadej",
@@ -23,7 +23,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/tadejsatler/",
+        url: "https://www.linkedin.com/in/tadejsatler/",
         icon: LinkedInIcon,
       },
       {
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "Present",
       description:
-        "Developed several protein design pipelines, including those for de novo protein binder generation. These pipelines integrate computational tools such as Rosetta, RFdiffusion, AlphaFold2, and ProteinMPNN with experimental validation methods. Additionally, I have successfully resolved multiple protein structures to high resolution using both CryoEM and X-ray techniques.",
+        "Developed several protein design pipelines, including those for de novo protein binder generation. These pipelines integrate computational tools such as Rosetta, RFdiffusion, AlphaFold2, and ProteinMPNN with experimental validation methods. Additionally, I have successfully resolved multiple protein structures to high resolution using both CryoEM and X-ray crystallography.",
       tags: ["Protein Design", "Computational Biology", "Rosetta", "AlphaFold2", "RFdiffusion", "ProteinMPNN", "Modeller", "Gromacs", "HPC", "Pipelining", "Protein Purification (FPLC)", "Protein Characterization (CD,DLS,SEC-MALS)", "PPI (ITC)", "X-ray Crystallography", "CryoEM"],
     },
     {
