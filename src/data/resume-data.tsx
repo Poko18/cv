@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Developed several protein design pipelines, including those for de novo protein binder generation. These pipelines integrate computational tools such as Rosetta, RFdiffusion, AlphaFold2, and ProteinMPNN with experimental validation methods. Additionally, I have successfully resolved multiple protein structures to high resolution using both CryoEM and X-ray crystallography.",
-      tags: ["Protein Design", "Computational Biology", "Rosetta", "AlphaFold2", "RFdiffusion", "ProteinMPNN", "Modeller", "Gromacs", "HPC", "Pipelining", "Protein Purification (FPLC)", "Protein Characterization (CD,DLS,SEC-MALS)", "PPI (ITC)", "X-ray Crystallography", "CryoEM"],
+      tags: ["Protein Design", "Computational Biology", "Rosetta", "AlphaFold2", "RFdiffusion", "ProteinMPNN", "Modeller", "Gromacs", "HPC", "Pipelining", "Protein Purification (FPLC)", "Protein Characterization (CD,DLS,SEC-MALS)", "PPI (ITC)", "X-ray Crystallography", "Phenix", "CCP4", "CryoEM", "CryoSPARC", "Relion"],
     },
     {
       company: "University of California, San Francisco",
@@ -88,7 +88,7 @@ export const RESUME_DATA = {
       end: "2022",
       description:
         "In Andrej Šali's lab. Advanced the development of deep neural networks specifically tailored for the identification of protein residues within cryoEM densities.",
-      tags: ["Python", "TensorFlow", "Integrative Biology", "CryoEM", "Machine Learning", "HPC", "Pipelining"],
+      tags: ["Python", "TensorFlow", "Integrative Biology", "IMP", "CryoEM", "Machine Learning", "HPC", "Pipelining"],
     },
     {
       company: "University of Bristol",
@@ -153,6 +153,10 @@ export const RESUME_DATA = {
     "Biopython",
     "Pandas",
     "NumPy",
+    "CryoSPARC",
+    "Relion",
+    "CCP4",
+    "Phenix",
     "TensorFlow",
     "AWS",
     "Docker",
