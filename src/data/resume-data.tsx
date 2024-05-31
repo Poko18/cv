@@ -38,7 +38,7 @@ export const RESUME_DATA = {
       school: "University of Ljubljana",
       degree: "PhD - Protein Design, Structural and Computational Biology",
       start: "2020",
-      end: "Present",
+      end: "2024",
     },
     {
       school: "University of Ljubljana",
