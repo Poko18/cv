@@ -1,14 +1,14 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Tadej Satler",
+  name: "Tadej Satler, PhD",
   initials: "TS",
   location: "Ljubljana, Slovenia, CET",
   locationLink: "https://www.google.com/maps/place/Ljubljana",
   about:
-    "PhD Student @ Kemijski Inštitut | Protein Design, Structural and Computational Biology",
+    "Researcher @ National Institute of Chemistry | Protein Design, Structural and Computational Biology",
   summary:
-    "I'm a Biochemistry graduate currently pursuing a PhD, with a keen interest in Protein Design, Structural Biology, Computational Biology, and Machine Learning. Actively seeking opportunities to apply my expertise in innovative research and development projects.",
+    "Recent PhD graduate with a keen interest in Protein Design, Structural Biology, Computational Biology, and Machine Learning. Actively seeking opportunities to apply my expertise in innovative research and development projects.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/36132075?v=4",
   avatarUrl: "https://raw.githubusercontent.com/Poko18/cv/495cb9bf711b2165e4d5ce123532b9f2a18f318b/pp.jpeg",
   personalWebsiteUrl: "https://bento.me/tadej",
@@ -36,7 +36,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Ljubljana",
-      degree: "PhD - Protein Design, Structural and Computational Biology",
+      degree: "PhD in Protein Design, Structural and Computational Biology",
       start: "2020",
       end: "2024",
     },
