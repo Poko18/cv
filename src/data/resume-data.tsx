@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Ljubljana, Slovenia, CET",
   locationLink: "https://www.google.com/maps/place/Ljubljana",
   about:
-    "Researcher @ National Institute of Chemistry | Protein Design, Structural and Computational Biology",
+    "Researcher @National Institute of Chemistry | Protein Design, Structural and Computational Biology",
   summary:
     "Recent PhD graduate with a keen interest in Protein Design, Structural Biology, Computational Biology, and Machine Learning. Actively seeking opportunities to apply my expertise in innovative research and development projects.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/36132075?v=4",
@@ -42,13 +42,13 @@ export const RESUME_DATA = {
     },
     {
       school: "University of Ljubljana",
-      degree: "Master's degree in Biochemistry",
+      degree: "Master's degree in Biochemistry (9.33/10)",
       start: "2017",
       end: "2019",
     },
     {
       school: "University of Ljubljana",
-      degree: "Bachelor's degree in Biochemistry",
+      degree: "Bachelor's degree in Biochemistry (8.88/10)",
       start: "2014",
       end: "2017",
     },
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       end: "Present",
       description:
         "Responsible for the development and integration of software solutions tailored for cryoEM data analysis within CryoCloud's platform. Duties include conducting research, testing, documentation, scripting, and contributing to web development of the platform.",
-      tags: ["Python", "Relion", "API", "Docker", "AWS", "EC2"],
+      tags: ["Python", "Relion", "API", "Docker", "AWS", "EC2", "Numpy", "Scipy"],
     },
     {
       company: "National Institute of Chemistry",
