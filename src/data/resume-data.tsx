@@ -157,7 +157,6 @@ export const RESUME_DATA = {
     "Relion",
     "CCP4",
     "Phenix",
-    "TensorFlow",
     "AWS",
     "Docker",
     "Git",
