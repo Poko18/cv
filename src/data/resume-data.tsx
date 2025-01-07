@@ -163,5 +163,46 @@ export const RESUME_DATA = {
     "HPC",
   ],
   projects: [
+    {
+      title: "Genentech",
+      techStack: [
+        "AlphaFold2",
+        "ProteinMPNN",
+        "RFdiffusion",
+        "HPC",
+        "Python",
+      ],
+      description:
+        "Contributed to several protein design projects and developed a repository to streamline the de novo design pipeline for protein binders within the Computational Structural Biology group at Genentech (San Francisco).",
+      // logo: GenentechLogo,
+      link: {
+        label: "genentech",
+        href: "https://www.gene.com/",
+      },
+      active: false,
+      date: "2024",
+      remote: true,
+    },
+    {
+      title: "Magmatic Bio",
+      techStack: [
+        "Protein Design",
+        "AlphaFold2",
+        "ProteinMPNN",
+        "RFdiffusion",
+        "AWS",
+        "Python",
+      ],
+      description:
+        "Worked on the de novo design of metal-binding proteins, aiming to develop novel protein scaffolds with optimized metal coordination.",
+      // logo: MagmaticBioLogo,
+      link: {
+        label: "MagmaticBio",
+        href: "https://www.magmatic.bio/",
+      },
+      active: true,
+      date: "2024",
+      remote: true,
+    },
   ],
 } as const;
