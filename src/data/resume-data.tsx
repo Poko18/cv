@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       company: "National Institute of Chemistry",
       link: "https://www.ki.si/en/",
       badges: [],
-      title: "PhD Student",
+      title: "PhD Student -> Researcher",
       title_badges: [],
       start: "2020",
       end: "Present",
