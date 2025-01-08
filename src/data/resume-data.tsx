@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   location: "Ljubljana, Slovenia, CET",
   locationLink: "https://www.google.com/maps/place/Ljubljana",
   about:
-    "Researcher @National Institute of Chemistry | Protein Design, Structural and Computational Biology",
+    "Software Developer @CryoCloud | Protein Design, Structural and Computational Biology",
   summary:
     "Recent PhD graduate with a keen interest in Protein Design, Structural Biology, Computational Biology, and Machine Learning. Actively seeking opportunities to apply my expertise in innovative research and development projects.",
   // avatarUrl: "https://avatars.githubusercontent.com/u/36132075?v=4",
